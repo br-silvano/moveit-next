@@ -14,6 +14,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
-    align-content: center;
-    
+    align-content: center;  
+}
+
+@media (max-width: 720px) {
+    .container section {
+        margin-top: 3.5rem;
+        margin-bottom: 2.5rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
